@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.toolbar {
+  width: 200px;
+  background: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toolbar button:hover {
+  background-color: #cce7ff;
+}
+
+.colors .color:hover {
+  outline: 2px solid #333;
+  outline-offset: 2px;
+}
+.toolbar button.active {
+  background-color: #3399ff;
+  color: white;
+  font-weight: bold;
+}
+
+
+.color {
+  width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+canvas {
+  border: 1px solid black;
+  background: white;
+  margin: 10px;
+}
