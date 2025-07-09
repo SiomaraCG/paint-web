@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Paint Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="toolbar">
+      <button id="brush">Pincel</button>
+      <button id="line">Línea</button>
+      <button id="rectangle">Rectángulo</button>
+      <button id="circle">Círculo</button>
+      <button id="eraser">Borrador</button>
+
+      <div class="colors">
+        <button class="color" data-color="black" style="background: black;"></button>
+        <button class="color" data-color="red" style="background: red;"></button>
+        <button class="color" data-color="blue" style="background: blue;"></button>
+        <button class="color" data-color="green" style="background: green;"></button>
+        <button class="color" data-color="yellow" style="background: yellow;"></button>
+        <button class="color" data-color="orange" style="background: orange;"></button>
+        <button class="color" data-color="purple" style="background: purple;"></button>
+        <button class="color" data-color="brown" style="background: brown;"></button>
+      </div>
+
+      <button id="clear">Limpiar</button>
+      <button id="save">Guardar</button>
+    </div>
+
+    <canvas id="canvas" width="800" height="600"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
